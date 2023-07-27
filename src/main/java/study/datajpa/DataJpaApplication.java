@@ -26,6 +26,9 @@ public class DataJpaApplication {
 //			}
 //		};
 //	}
+
+	// 테스트용 주석
+
 	@Bean
 	public AuditorAware<String> auditorProvider() {
 		return () -> Optional.of(UUID.randomUUID().toString());
